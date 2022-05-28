@@ -29,7 +29,7 @@
           <param name="maven.path" value="%teamcity.tool.maven.DEFAULT%" />
           <param name="pomLocation" value="pom.xml" />
           <param name="runnerArgs" value="-Dmaven.test.failure.ignore=true" />
-          <param name="teamcity.step.mode" value="default" />
+          <param name="teamcity.step.mode" value="execute_if_failed" />
           <param name="userSettingsSelection" value="settings.xml" />
         </parameters>
       </runner>
