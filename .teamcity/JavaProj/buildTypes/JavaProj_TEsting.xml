@@ -3,6 +3,9 @@
   <name>TEsting</name>
   <description />
   <settings>
+    <options>
+      <option name="artifactColl" value="+:target/*.jar" />
+    </options>
     <parameters />
     <build-runners>
       <runner id="RUNNER_2" name="1" type="Maven2">
