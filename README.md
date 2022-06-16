@@ -49,3 +49,11 @@
 19. В ответ предоставьте ссылку на репозиторий
  **Выполнение**  
 [Ссылка]https://github.com/duskdemon/example-teamcity/blob/main/README.md
+
+## Доработка:
+**Спасибо за работу, не вижу настройки проекта в виде кода (шаг 8 основной части)**
+ **Выполнение**
+
+Настройка производится в веб-интерфейсе через Administration - Example Teamcity - Versionized settings
+Создаем/выбираем vcs root, вводим URL и учетные данные для доступа, нажимаем "apply". Далее делаем необходимые настройки синхронизации.
+![скрин vcs](https://github.com/duskdemon/example-teamcity/blob/main/fix01.png)
